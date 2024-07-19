@@ -45,3 +45,33 @@ I wanted to make an 'offline' version that is
 - Make sure your range is copied to the clipboard before you run the script.
 - No need to try to copy the output to the clipboard. This is handled automatically by the script.
 - Only ranges from a single column, such as A1:A28 or C2:C17, give the intended result.
+
+## Example
+
+Turn a list like:
+
+Sample1
+Sample2
+Sample3
+Sample4
+Sample5
+Sample6
+Sample7
+Sample8
+Sample9
+Sample10
+Sample11
+Sample12
+
+into:
+
+'Sample1', 'Sample2', 'Sample3', 'Sample4', 'Sample5', 'Sample6', 'Sample7', 'Sample8', 'Sample9', 'Sample10', 'Sample11', 'Sample12'
+
+In practice, copy the stacked list above: highlight the selection and ctrl + c.
+Run the script.
+
+## Practice
+
+Then you can easily paste into a SQL query: 
+   ```bash
+      SELECT * FROM tbl_sample WHERE sample_field IN ('Sample1', 'Sample2', 'Sample3', 'Sample4', 'Sample5', 'Sample6', 'Sample7', 'Sample8', 'Sample9','Sample10', 'Sample11', 'Sample12');
