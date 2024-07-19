@@ -43,4 +43,5 @@ I wanted to make an 'offline' version that is
 ## Pitfalls
 
 - Make sure your range is copied to the clipboard before you run the script.
-- No need to try to copy the output to the clipboard. This is handled automatically by the script :)
+- No need to try to copy the output to the clipboard. This is handled automatically by the script.
+- Only ranges from a single column, such as A1:A28 or C2:C17, give the intended result.
