@@ -50,17 +50,17 @@ I wanted to make an 'offline' version that is
 
 Turn a list like:
 
-Sample1
-Sample2
-Sample3
-Sample4
-Sample5
-Sample6
-Sample7
-Sample8
-Sample9
-Sample10
-Sample11
+Sample1<br>
+Sample2<br>
+Sample3<br>
+Sample4<br>
+Sample5<br>
+Sample6<br>
+Sample7<br>
+Sample8<br>
+Sample9<br>
+Sample10<br>
+Sample11<br>
 Sample12
 
 into:
